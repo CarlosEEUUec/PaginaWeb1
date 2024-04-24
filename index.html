@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliografia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Carlos Hernandez</h1>
+    <h2>
+        Tengo 22 años y actualmente soy estudiande de la universidad 
+        laica Eloy Alfaro en Chone y soy voluntario en el cuerpo de bomberos de Chone, aqui puedes
+        encontrar un poco mas sobre mi y de lo que hago en el cuerpo de bomberos, te dejare mis enlaces y un video demostrativo
+        de ciertos entrenamientos que hacemos en la central  bomberos.
+    </h2>
+</body>
+    <div class="contenedor-pagina">
+        <img src="Imagenes/Carlosbombero.jpg" alt="">
+        <div class="contenido-principal">
+            <div class="contenedor-botones">
+                <button class="boton-red-social" onclick="abrirEnlaceEnNuevaPestaña('https://www.instagram.com/onlycarlosh_es/')"> 
+                  <img src="Imagenes/Instagram_icon.png.webp" alt="Instagram">
+                  <span>Instagram</span>
+                </button>
+                <button class="boton-red-social"onclick="abrirEnlaceEnNuevaPestaña('https://www.tiktok.com/@onlycarlos_es?_t=8lmtGAB6IOk&_r=1')">
+                  <img src="Imagenes/Tiktoklogo.png" alt="TikTok">
+                  <span>TikTok</span>
+                </button>
+                <button class="boton-red-social" onclick="abrirEnlaceEnNuevaPestaña('https://x.com/carlosla_es?s=21')">
+                  <img src="Imagenes/Xlogo.png" alt="Twitter">
+                  <span>Twitter</span>
+                </button>
+              </div>
+        </div>
+    </div>
+    <script>
+        function abrirEnlaceEnNuevaPestaña(url) {
+          window.open(url, '_blank');
+        }
+      </script>
+      <div class="video-container">
+        <video src="Imagenes\VideoDemostrativo.mp4" controls width="840" height="560">
+        </video>
+      </div>
+</body>
+</html>
